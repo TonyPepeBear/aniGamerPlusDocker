@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Origin Repo
         uses: actions/checkout@v2
         with:
-          repo: 'miyouzi/aniGamerPlus'
+          repository: 'miyouzi/aniGamerPlus'
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v1
